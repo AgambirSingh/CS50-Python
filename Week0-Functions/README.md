@@ -5,7 +5,7 @@ This repository contains solutions to the exercises from **Week 0** of CS50’s 
 ## 📁 Repository Structure
 This folder focuses specifically on **functions** and includes solutions to the following exercises:
 
-1. **Hello, World**: A simple program to print a greeting.
+1. **Indoor Voice**: Convert User's input to Lowescase ignoring Whitespaces and Punctuations.
 2. **Playback Speed**: Simulate slow playback by replacing spaces with ellipses.
 3. **Making Faces**: Convert textual emoticons like `:)` and `:(` to their emoji equivalents.
 4. **Einstein**: Calculate energy from mass using Einstein’s equation \(E = mc^2\).
@@ -33,9 +33,9 @@ python <filename>.py
 ```
 
 ### Example:
-To execute the **Hello, World** solution:
+To execute the **Indoor Voice** solution:
 ```bash
-python hello.py
+python indoor.py
 ```
 
 ---
@@ -50,8 +50,9 @@ The solutions in this directory emphasize:
 ---
 
 ## 💻 Exercises Breakdown
-### 1. **Hello, World**
-The classic first program! Outputs a simple greeting to the user.
+### 1. **Indoor Voice**
+WRITING IN ALL CAPS IS LIKE YELLING.
+Best to use your “indoor voice” sometimes, writing entirely in lowercase.
 
 ### 2. **Playback Speed**
 Converts text input by replacing spaces with ellipses to mimic a "slow playback" effect.
