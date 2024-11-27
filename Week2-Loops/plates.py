@@ -18,7 +18,7 @@ def is_valid(s):
     if not s.isalnum():
         return False
     
-    # Check if numbers are in the middle or start with '0'
+    # Check if numbers are in the middle eg.(CS50XP) or start with '0'
     for i in range(len(s)):
         if s[i].isdigit():
             if i < 2 or (i > 1 and not s[i:].isdigit()) or s[i] == '0':
