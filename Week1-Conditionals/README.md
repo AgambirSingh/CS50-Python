@@ -18,7 +18,7 @@ The folder includes solutions to the following exercises:
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repository
+### 1. Clone this Repository
 Clone the repository and navigate to the `Week1-Conditionals` directory:
 ```bash
 git clone https://github.com/AgambirSingh/CS50-Python.git
