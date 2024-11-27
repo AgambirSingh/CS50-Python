@@ -1,7 +1,7 @@
 # CS50 Harvard University - Python Track🐍
 **Course Instructor:** David J. Malan  
-**Author:** [Your Name]  
-**Date:** [Current Date]  
+**Author:** Agambir Singh  
+**Date:** 27 November,2024  
 
 ## 🖥️ Course Overview  
 CS50’s Introduction to Programming with Python is a comprehensive course designed to teach Python fundamentals while fostering problem-solving skills. This repository documents my progress throughout the course, including summaries of concepts learned and projects completed. Weekly updates will be added as I continue progressing through the course.  
