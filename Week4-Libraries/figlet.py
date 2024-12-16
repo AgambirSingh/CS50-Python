@@ -1,17 +1,29 @@
 import sys
+import random
 from pyfiglet import Figlet
 
-# figlet = Figlet()
-# figlet.getFonts()
-# figlet.setFont(font=f)#f is the font’s name as a str:
-# print(figlet.renderText(s))
+figlet = Figlet()
+# List of all available fonts
+fonts= figlet.getFonts()
 
-#Prompts the user for a str of text.
-print("het" , sys.argv[1])
+# Random font if user doesn't specify font in command line
+if len(sys.argv) == 1:
+    font = random.choice(fonts)
 
+# Elif- User type font name, for eg. python figlet.py -f rectangles
+elif len(sys.argv) == 3:
+    if sys.argv[1] != "-f" and sys.argv[1] != "--font":
+        sys.exit("Invalid usage")
 
-#Expects zero or two command-line arguments use if-else
+    if sys.argv[2] not in fonts:
+        sys.exit("Invalid usage")
 
+    # Setting new font which user entered in command line
+    figlet.setFont(font=sys.argv[2])
 
+else:
+    sys.exit("Invalid usage")
 
-#Outputs that text in the desired font.
+text=input("Input: ").strip()
+
+print(figlet.renderText(text))
