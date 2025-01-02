@@ -4,20 +4,20 @@ import sys
 if len(sys.argv)==2:
     filename = sys.argv[1]
 elif len(sys.argv) > 2:
-    sys.exit('Too many command-line arguments')
+    sys.exit("Too many command-line arguments")
 else:
-    sys.exit('Too few command-line arguments')
+    sys.exit("Too few command-line arguments")
 
 #checking proper file
-if not filename.endswith('.py'):
-    sys.exit('Not a Python file')
+if not filename.endswith(".py"):
+    sys.exit("Not a Python file")
 
 try:
     file = open(filename)
     lines = file.readlines()
     count = 0
     for line in lines:
-        if line.lstrip().startswith('#'):
+        if line.lstrip().startswith("#"):
             # dont count comments
             continue
         elif line.isspace():
@@ -28,4 +28,4 @@ try:
             count += 1
     print(count)
 except FileNotFoundError:
-    sys.exit('File does not exist')
+    sys.exit("File does not exist")
