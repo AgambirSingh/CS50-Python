@@ -1,57 +1,102 @@
-# CS50 Harvard University - Python Track🐍
+# CS50 Harvard University - Python Track 🐍
 **Course Instructor:** David J. Malan  
 **Author:** Agambir Singh  
-**Date:** 27 November,2024  
+**Date:** 30 October, 2024 - 5 January, 2025
 
 ## 🖥️ Course Overview  
-CS50’s Introduction to Programming with Python is a comprehensive course designed to teach Python fundamentals while fostering problem-solving skills. This repository documents my progress throughout the course, including summaries of concepts learned and projects completed. Weekly updates will be added as I continue progressing through the course.  
+CS50’s Introduction to Programming with Python is a comprehensive course designed to teach Python fundamentals while fostering problem-solving skills. This repository documents my progress throughout the course, including summaries of concepts learned and projects completed.
 
 ---
 
-## 🎯 Projects Overview (Week 0 - Week 2)  
-
-### **Week 0: Emojize** 🐱‍👓  
-- **Description:** A script that converts user-provided text into emojis using the `emoji` library.  
-- **Key Concepts:** Third-party libraries, string manipulation, user input.  
-- **What I Learned:**  
-  - Installing and using external Python libraries.  
-  - Writing programs with interactive, user-friendly input and output.  
+## 💼 LinkedIn Showcase  
+Visit my [LinkedIn profile](https://www.linkedin.com/in/agambir/) to see detailed snapshots of the working code for these projects. Feel free to connect and share feedback!  
 
 ---
 
-### **Week 1: Tip Calculator** 💵  
-- **Description:** A program to calculate the tip for a given bill amount and tip percentage.  
-- **Key Concepts:** User input, type conversion, formatted strings.  
-- **What I Learned:**  
-  - Handling numerical input and performing arithmetic operations.  
-  - Formatting output to enhance readability for users.  
+## Skills and Concepts Learned 🛠️
+
+Throughout the course, I have gained proficiency in the following areas:
+
+- **Functions**: Understanding how to define and use functions, manage parameters, and return values.
+- **Variables**: Working with different data types and understanding variable scope.
+- **Conditionals**: Implementing decision-making using if, elif, and else statements.
+- **Loops**: Utilizing for and while loops for iteration and control flow.
+- **Exceptions**: Handling errors gracefully using try, except, and finally blocks.
+- **Libraries**: Importing and using Python libraries to extend functionality.
+- **Unit Tests**: Writing and executing unit tests to ensure code reliability.
+- **File I/O**: Reading from and writing to files for data persistence.
+- **Regular Expressions**: Using regex for pattern matching and text processing.
+- **Object-Oriented Programming**: Creating classes and objects, and understanding inheritance and encapsulation.
 
 ---
 
-### **Week 2: CamelCase to snake_case Converter** 🐍  
-- **Description:** A tool to convert variable names from `CamelCase` to `snake_case`.  
-- **Key Concepts:** Loops, conditionals, string methods.  
-- **What I Learned:**  
-  - Designing algorithms to manipulate strings.  
-  - Developing useful developer tools with efficient logic.  
+## 🎯 Projects Overview (Week 0 - Week 9)  
 
----
+### **Week 0: Introductory Projects** 🌟  
+- **Indoor Voice**: A program that converts text to lowercase.  
+- **Playback Speed**: A program that simulates playback speed adjustments.  
+- **Making Faces**: A program that replaces text with emoji equivalents.  
+- **Einstein**: A program that calculates energy based on mass.  
+- **Tip Calculator**: A program that calculates tips based on bill amounts.  
 
-## 🚀 Weekly Updates  
-- This repository will be updated weekly as I progress through the course.  
-- Future weeks will cover topics such as data structures, file handling, APIs, and testing.  
-- Each week’s section will include a summary of concepts learned, notable projects, and any challenges faced.  
+### **Week 1: Basic Programming Concepts** 🧮  
+- **Deep Thought**: A program that answers the ultimate question of life.  
+- **Home Federal Savings Bank**: A program that simulates a simple banking system.  
+- **File Extensions**: A program that identifies file types based on extensions.  
+- **Math Interpreter**: A program that evaluates simple mathematical expressions.  
+- **Meal Time**: A program that suggests meals based on the time of day.  
 
----
+### **Week 2: String Manipulation** 🔤  
+- **Camel Case**: A tool to convert variable names from `CamelCase` to `snake_case`.  
+- **Coke Machine**: A program that simulates a vending machine.  
+- **Just setting up my twttr**: A program that removes vowels from text.  
+- **Vanity Plates**: A program that validates custom license plates.  
+- **Nutrition Facts**: A program that provides nutritional information.  
 
-## 🔧 Tools and Libraries Used (So Far)  
-- **Languages:** Python  
-- **Libraries:**  
-  - `emoji` for text-to-emoji conversion.  
+### **Week 3: Data Structures and Algorithms** 📊  
+- **Fuel Gauge**: A program that displays fuel levels.  
+- **Felipe's Taqueria**: A program that manages a restaurant menu.  
+- **Grocery List**: A program that manages a shopping list.  
+- **Outdated**: A program that checks for outdated software versions.  
+
+### **Week 4: Advanced String Handling** ✍️  
+- **Emojize**: A program that converts text to emojis.  
+- **Frank, Ian and Glen's Letters**: A program that processes text files.  
+- **Adieu, Adieu**: A program that generates farewell messages.  
+- **Guessing Game**: A number guessing game.  
+- **Little Professor**: A math quiz program for children.  
+- **Bitcoin Price Index**: A program that fetches and displays Bitcoin prices.  
+
+### **Week 5: Testing and Debugging** 🐞  
+- **Testing my twittr**: A program that tests Twitter-like functionality.  
+- **Back to the Bank**: A program that simulates banking transactions.  
+- **Re-requesting a Vanity Plate**: A program that revalidates license plates.  
+- **Refueling**: A program that calculates fuel costs.  
+
+### **Week 6: File I/O and Data Processing** 📂  
+- **Lines of Code**: A program that counts lines of code in a file.  
+- **Pizza Py**: A program that manages pizza orders.  
+- **Scourgify**: A program that cleans up data files.  
+- **CS50 P-Shirt**: A program that designs custom t-shirts.  
+
+### **Week 7: Regular Expressions and Validation** 🔍  
+- **NUMB3RS**: A program that validates phone numbers.  
+- **Watch on YouTube**: A program that fetches YouTube video data.  
+- **Working 9 to 5**: A program that calculates work hours.  
+- **Regular, um, Expressions**: A program that processes text with regex.  
+- **Response Validation**: A program that validates user input.  
+
+### **Week 8: Object-Oriented Programming** 🚀  
+- **Seasons of Love**: A program that calculates time in seasons.  
+- **Cookie Jar**: A program that manages a cookie inventory.  
+- **CS50 Shirtificate**: A program that generates course certificates.  
+
+### **Week 9: Final Project** 🏗️  
+- **Final Project**: A comprehensive project applying all learned concepts.  
 
 ---
 
 ## 📈 Conclusion  
-This course has been an exciting journey so far, and I look forward to building more complex and creative Python applications in the coming weeks. Stay tuned for updates as I continue my learning!  
+Completing this course has been an enriching experience, enhancing my problem-solving skills and deepening my understanding of Python. I look forward to applying these skills in future projects and continuing my learning journey. Stay tuned for updates as I explore more advanced topics and projects!  
 
----  
+---
